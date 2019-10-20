@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="540.86511mm"
+   height="81.798164mm"
+   viewBox="0 0 540.86512 81.798168"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="mission.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="1178.645"
+     inkscape:cy="314.22555"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="レイヤー 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(125.48809,-95.160712)">
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.2240231;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -66.304425,95.79976 -59.183665,80.64789 489.98795,0.51123 50.87719,-81.798168 z"
+       id="path815"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#80ccff;fill-opacity:1;stroke:none;stroke-width:4.97210932;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -59.696994,100.72044 -52.459926,70.62629 468.09493,0.44771 46.43185,-71.63364 z"
+       id="path815-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot832"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:extra-condensed;font-size:74.66666412px;line-height:2.25;font-family:Algerian;-inkscape-font-specification:'Algerian, Extra-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.28916025,0,0,0.28916025,11.656483,-8.8393983)"><flowRegion
+         id="flowRegion834"><rect
+           id="rect836"
+           width="1258.0841"
+           height="317.76709"
+           x="114.46425"
+           y="291.72501" /></flowRegion><flowPara
+         id="flowPara838" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.00923157px;line-height:2.25;font-family:'Calisto MT';-inkscape-font-specification:'Calisto MT';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.38851649"
+       x="-64.780548"
+       y="145.69275"
+       id="text842"><tspan
+         sodipodi:role="line"
+         id="tspan840"
+         x="-64.780548"
+         y="145.69275"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Old English Text MT';-inkscape-font-specification:'Old English Text MT';fill:#ffffff;fill-opacity:1;stroke-width:0.38851649">情報格差による機会損失をなくす</tspan></text>
+  </g>
+</svg>
