@@ -17,46 +17,47 @@ header {
   height: 100vh;
   display: block;
   position: relative;
+  overflow-x: hidden;
   background-color: #FFFFFF;
 }
 
 header #headerBg1 {
   position: absolute;
-  top: -150px;
+  top: -170px;
   right: -120px;
 }
 
 header #headerBg2 {
   position: absolute;
-  top: -240px;
+  top: -260px;
   left: -320px;
 }
 
 header #headerBg3-1 {
   position: absolute;
-  top: 345px;
+  top: 325px;
   left: 22px;
   animation: rotate 10s infinite;
 }
 
 header #headerBg3-2 {
   position: absolute;
-  top: 146px;
+  top: 126px;
   left: 667px;
   animation: rotate 13s infinite;
 }
 
 header #headerBg3-3 {
   position: absolute;
-  top: 52px;
+  top: 33px;
   left: 76px;
   animation: rotate 16s infinite;
 }
 
 header #headerBg3-4 {
   position: absolute;
-  top: 146px;
-  left: 667px;
+  top: 324px;
+  right: 50px;
   animation: rotate 17s infinite;
 }
 
