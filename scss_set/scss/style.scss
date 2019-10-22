@@ -21,7 +21,7 @@ header {
   display: block;
   position: relative;
   overflow-x: hidden;
-  background-color: #FFFFFF;
+  background: linear-gradient(#676767, #FFFFFF);
   #headerBg1 {
     position: absolute;
     top: -170px;
@@ -40,8 +40,8 @@ header {
   }
   #headerBg3-2 {
     position: absolute;
-    top: 126px;
-    left: 667px;
+    top: 125px;
+    right: 389px;
     animation: rotate 13s infinite;
   }
   #headerBg3-3 {
@@ -75,7 +75,7 @@ header {
 
 main {
   width: 100vw;
-  height: 470vh;
+  height: 500vh;
   background-color: #ffffff;
   overflow: hidden;
   position: relative;
@@ -119,65 +119,115 @@ main {
       width: 17vw;
       margin-top: 5vh;
     }
-    .container_serviceContent {
-      width: 34vw;
-      text-align: center;
-      background-color: rgba(254,254,254,0.6);
-      border-radius: 20px;
-      box-shadow: 5px 5px 3px #676767;
-      border-radius: 20px;
-      h2 {
-        margin-top: 2vh;
-        font-size: 18px;
-
-      }
-      .screenshot {
-        margin-top: 2vh;
-        width: 26vw;
-      }
-      p {
-        margin: 3vh 18px;
-        font-size: 13px;
-        text-align: left;
-
-      }
-    }
-    .container_service_content {
-      height: 44vh;
-      margin-top: 8vh;
-      position: relative;
-      #container_wcatch {
-        position: absolute;
-        left: 10vw;
-        transition: 1s;
-        &:hover {
-          transform: scale(1.05);
+    .container_serviceItem {
+      width: 70vw;
+      margin: 5vh 15vw 10vh 15vw;
+      display: flex;
+      .container_serviceImg {
+        height: 40vh;
+        width: 30vw;
+        margin: 0 2.5vw;
+        img {
+          width: 30vw;
+          margin-top: 5vh;
+          box-shadow: 3px 3px 2px #676767;
         }
       }
-      #container_media {
-        position: absolute;
-        right: 10vw;
-        transition: 1s;
-        &:hover {
-          transform: scale(1.05);
+      .container_serviceText {
+        height: 40vh;
+        width: 30vw;
+        margin: 0 2.5vw;
+        position: relative;
+        object {
+          width: 3vw;
+          position: absolute;
+          top: 30px;
+          left: 15px;
+        }
+        h2 {
+          margin-top: 10vh;
+        }
+        p {
+          margin-top: 5vh;
+          font-size: 13px;
+          text-align: left;
         }
       }
-      #container_cwalk {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        transition: 1s;
-        &:hover {
-          transform: translateX(-50%) scale(1.05);
+      #container_serviceText1 {
+          h2 {
+            font-size: 30px;
+        }
+      }
+      #container_serviceText2 {
+        h2 {
+          font-size: 30px;
+        }
+      }
+      #container_serviceText3 {
+        h2 {
+          font-size: 26px;
         }
       }
     }
+    // .container_serviceContent {
+    //   width: 34vw;
+    //   text-align: center;
+    //   background-color: rgba(254,254,254,0.6);
+    //   border-radius: 20px;
+    //   box-shadow: 5px 5px 3px #676767;
+    //   border-radius: 20px;
+    //   h2 {
+    //     margin-top: 2vh;
+    //     font-size: 18px;
+    //
+    //   }
+    //   .screenshot {
+    //     margin-top: 2vh;
+    //     width: 26vw;
+    //   }
+    //   p {
+    //     margin: 3vh 18px;
+    //     font-size: 13px;
+    //     text-align: left;
+    //
+    //   }
+    // }
+    // .container_service_content {
+    //   height: 44vh;
+    //   margin-top: 8vh;
+    //   position: relative;
+    //   #container_wcatch {
+    //     position: absolute;
+    //     left: 10vw;
+    //     transition: 1s;
+    //     &:hover {
+    //       transform: scale(1.05);
+    //     }
+    //   }
+    //   #container_media {
+    //     position: absolute;
+    //     right: 10vw;
+    //     transition: 1s;
+    //     &:hover {
+    //       transform: scale(1.05);
+    //     }
+    //   }
+    //   #container_cwalk {
+    //     position: absolute;
+    //     left: 50%;
+    //     transform: translateX(-50%);
+    //     transition: 1s;
+    //     &:hover {
+    //       transform: translateX(-50%) scale(1.05);
+    //     }
+    //   }
+    // }
   }
   #container_company {
     width: 100vw;
-    margin: 30vh 0;
+    margin: 20vh 0;
     position: absolute;
-    top: 268vh;
+    bottom: 20vh;
     text-align: center;
     #companyTitle {
       margin-top: 5vh;

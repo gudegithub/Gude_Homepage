@@ -34,10 +34,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.175"
-     inkscape:cx="929.09554"
+     inkscape:cx="-368.04732"
      inkscape:cy="1322.4204"
      inkscape:document-units="mm"
-     inkscape:current-layer="g1126"
+     inkscape:current-layer="g1144"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="986"
@@ -78,13 +78,14 @@
        id="g1144">
       <g
          transform="matrix(2.6435274,0,0,2.6435274,133.43072,-786.33883)"
-         id="g1067">
+         id="g1067"
+         style="fill:#9ca8f4;fill-opacity:1">
         <path
            sodipodi:nodetypes="cccc"
            inkscape:connector-curvature="0"
            id="path1111"
            d="m -82.827031,457.68623 43.67666,38.8237 316.096751,-53.35858 z"
-           style="fill:#feff9e;fill-opacity:1;stroke:none;stroke-width:0.10008723px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+           style="fill:#9ca8f4;fill-opacity:1;stroke:none;stroke-width:0.10008723px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
       </g>
       <g
          id="g1126"
