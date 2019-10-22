@@ -5,11 +5,39 @@ html body {
   font-family: 'Noto Sans Japanese', sans-serif;
 }
 
-#navigation {
-  position: fixed;
-  display: flex;
+header {
+  z-index: 5;
   width: 100vw;
-  height: 7vh;
+  height: 10vh;
+  position: fixed;
+  top: 0;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.2);
+  text-align: right;
+}
+
+header .headerItem {
+  width: 12vw;
+  height: 10vh;
+  position: relative;
+  transition: 0.6s;
+}
+
+header .headerItem:hover {
+  background-color: rgba(225, 225, 225, 0.5);
+}
+
+header .headerItem p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 16px;
+  color: #3F3F3F;
+}
+
+header #headerItem_first {
+  margin-left: 52vw;
 }
 
 #index {
@@ -18,7 +46,7 @@ html body {
   display: block;
   position: relative;
   overflow-x: hidden;
-  background: #FFFFFF;
+  background: #676767;
 }
 
 #index #indexBg1 {
@@ -285,6 +313,41 @@ main #mainBg5 {
   position: absolute;
   top: 20%;
   left: 0;
+}
+
+main #mainBg6 {
+  width: 78vw;
+  position: absolute;
+  top: 1%;
+  left: 0;
+}
+
+main #mainBg7 {
+  width: 82vw;
+  position: absolute;
+  top: 31%;
+  right: 0;
+}
+
+main #mainBg8 {
+  width: 82vw;
+  position: absolute;
+  top: 68%;
+  right: 0;
+}
+
+main #mainBg9 {
+  width: 20vw;
+  position: absolute;
+  top: 88%;
+  right: 30px;
+}
+
+main #mainBg10 {
+  width: 20vw;
+  position: absolute;
+  top: 54%;
+  right: 50px;
 }
 
 footer {
