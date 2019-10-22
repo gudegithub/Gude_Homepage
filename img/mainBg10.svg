@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="73.493271mm"
-   height="84.352859mm"
-   viewBox="0 0 73.493272 84.352858"
+   width="73.292557mm"
+   height="58.752243mm"
+   viewBox="0 0 73.292558 58.752242"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
@@ -63,8 +63,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="66.579202"
-     inkscape:cy="172.81219"
+     inkscape:cx="65.820588"
+     inkscape:cy="76.053953"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -83,8 +83,8 @@
     <inkscape:grid
        type="xygrid"
        id="grid827"
-       originx="134.74906"
-       originy="-577.57885" />
+       originx="134.54835"
+       originy="-603.17945" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -94,7 +94,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -102,7 +102,7 @@
      inkscape:label="レイヤー 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(134.74903,364.93177)">
+     transform="translate(134.54831,364.93177)">
     <path
        sodipodi:type="star"
        style="opacity:1;fill:#b8eaf7;fill-opacity:1;stroke:none;stroke-width:2.03488326;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
