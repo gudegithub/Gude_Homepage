@@ -12,56 +12,63 @@ html body {
   height: 7vh;
 }
 
-header {
+#index {
   width: 100vw;
   height: 100vh;
   display: block;
   position: relative;
   overflow-x: hidden;
-  background: linear-gradient(#676767, #FFFFFF);
+  background: #FFFFFF;
 }
 
-header #headerBg1 {
+#index #indexBg1 {
   position: absolute;
   top: -170px;
   right: -120px;
 }
 
-header #headerBg2 {
+#index #indexBg2 {
   position: absolute;
   top: -260px;
   left: -320px;
 }
 
-header #headerBg3-1 {
+#index #indexBg3-1 {
   position: absolute;
   top: 325px;
   left: 22px;
   animation: rotate 10s infinite;
 }
 
-header #headerBg3-2 {
+#index #indexBg3-2 {
   position: absolute;
   top: 125px;
   right: 389px;
   animation: rotate 13s infinite;
 }
 
-header #headerBg3-3 {
+#index #indexBg3-3 {
   position: absolute;
   top: 33px;
   left: 76px;
   animation: rotate 16s infinite;
 }
 
-header #headerBg3-4 {
+#index #indexBg3-4 {
   position: absolute;
   top: 324px;
   right: 50px;
   animation: rotate 17s infinite;
 }
 
-header #container_companyName {
+#index #indexBg4 {
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#index #container_companyName {
   position: absolute;
   top: 38vh;
   left: 50vw;
@@ -69,12 +76,12 @@ header #container_companyName {
   text-align: center;
 }
 
-header #container_companyName h2 {
+#index #container_companyName h2 {
   font-size: 42px;
   color: #3F3F3F;
 }
 
-header #container_companyName h1 {
+#index #container_companyName h1 {
   font-size: 100px;
   color: #3F3F3F;
 }
@@ -151,7 +158,12 @@ main #container_service .container_serviceItem .container_serviceImg {
 main #container_service .container_serviceItem .container_serviceImg img {
   width: 30vw;
   margin-top: 5vh;
+  transition: 1s;
   box-shadow: 3px 3px 2px #676767;
+}
+
+main #container_service .container_serviceItem .container_serviceImg img:hover {
+  transform: scale(1.05);
 }
 
 main #container_service .container_serviceItem .container_serviceText {
@@ -162,7 +174,7 @@ main #container_service .container_serviceItem .container_serviceText {
 }
 
 main #container_service .container_serviceItem .container_serviceText object {
-  width: 3vw;
+  width: 4vw;
   position: absolute;
   top: 30px;
   left: 15px;

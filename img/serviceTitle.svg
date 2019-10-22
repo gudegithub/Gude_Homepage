@@ -11,19 +11,19 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg8"
    version="1.1"
-   viewBox="0 0 951.07086 179.76505"
-   height="179.76505mm"
-   width="951.07086mm"
+   viewBox="0 0 158.36995 51.902677"
+   height="51.902676mm"
+   width="158.36995mm"
    sodipodi:docname="serviceTitle.svg"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <defs
      id="defs2">
     <inkscape:perspective
        sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 148.5 : 1"
+       inkscape:vp_x="0 : 148.50001 : 1"
        inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="210 : 148.5 : 1"
-       inkscape:persp3d-origin="105 : 99 : 1"
+       inkscape:vp_z="210 : 148.50001 : 1"
+       inkscape:persp3d-origin="105 : 99.000003 : 1"
        id="perspective819" />
   </defs>
   <sodipodi:namedview
@@ -33,21 +33,21 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.175"
-     inkscape:cx="3342.5714"
-     inkscape:cy="408.1347"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="-53.792379"
+     inkscape:cy="198.8873"
      inkscape:document-units="mm"
-     inkscape:current-layer="g1144"
+     inkscape:current-layer="g1126"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="986"
      inkscape:window-x="-11"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0" />
+     fit-margin-top="15"
+     fit-margin-left="15"
+     fit-margin-right="15"
+     fit-margin-bottom="15" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -64,12 +64,12 @@
      inkscape:label="レイヤー 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(85.524806,-346.43373)" />
+     transform="translate(100.52481,-348.92556)" />
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="レイヤー 2"
-     transform="translate(85.524806,-346.43373)">
+     transform="translate(100.52481,-348.92556)">
     <g
        inkscape:groupmode="layer"
        id="layer3"
@@ -77,7 +77,7 @@
     <g
        id="g1144">
       <g
-         transform="matrix(2.6435274,0,0,2.6435274,133.43072,-786.33883)"
+         transform="matrix(0.35680779,0,0,0.35680779,-55.971476,208.66963)"
          id="g1067"
          style="fill:#9ca8f4;fill-opacity:1">
         <path
@@ -89,19 +89,52 @@
       </g>
       <g
          id="g1126"
-         transform="matrix(2.6435274,0,0,2.6435274,145.07246,-475.35523)">
-        <text
-           id="text1163"
-           y="373.9498"
-           x="-72.868744"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:extra-condensed;font-size:87.27511597px;line-height:2.25;font-family:Algerian;-inkscape-font-specification:'Algerian, Extra-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.1688633"
-           xml:space="preserve"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Consolas;-inkscape-font-specification:Consolas;stroke-width:1.1688633"
-             y="373.9498"
-             x="-72.868744"
-             id="tspan1161"
-             sodipodi:role="line">SERVICE</tspan></text>
-      </g>
+         transform="matrix(0.47610243,0,0,0.47610243,-43.993964,212.77009)">
+        <g
+           aria-label="SERVICE"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:extra-condensed;font-size:65.4070282px;line-height:2.25;font-family:Algerian;-inkscape-font-specification:'Algerian, Extra-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.87598699"
+           id="text1163">
+          <path
+             d="m -44.626193,348.49605 q 0,2.97014 -1.213607,5.20574 -1.213607,2.23559 -3.385324,3.73663 -2.171718,1.4691 -5.237673,2.20365 -3.034017,0.73455 -6.706775,0.73455 -1.660725,0 -3.321451,-0.12774 -1.628788,-0.12775 -3.161765,-0.31937 -1.50104,-0.19163 -2.842395,-0.44712 -1.341356,-0.2555 -2.427214,-0.54293 v -5.49317 q 2.395277,0.89424 5.36542,1.40523 3.00208,0.51099 6.802586,0.51099 2.746585,0 4.662806,-0.41518 1.948159,-0.44712 3.161766,-1.27748 1.245544,-0.8623 1.788473,-2.07591 0.574866,-1.2136 0.574866,-2.77852 0,-1.69266 -0.95811,-2.87433 -0.926174,-1.21361 -2.459151,-2.13978 -1.532978,-0.95811 -3.513073,-1.7246 -1.948159,-0.79843 -3.992128,-1.62879 -2.04397,-0.83036 -4.024065,-1.78847 -1.948159,-0.99005 -3.481136,-2.29947 -1.532977,-1.34135 -2.491088,-3.12983 -0.926174,-1.78847 -0.926174,-4.24762 0,-2.13978 0.894237,-4.21569 0.894236,-2.07591 2.778521,-3.67276 1.884284,-1.62879 4.822491,-2.61883 2.970143,-0.99005 7.058082,-0.99005 1.053922,0 2.267529,0.0958 1.245544,0.0958 2.491088,0.28743 1.277481,0.15969 2.491088,0.38325 1.245544,0.22356 2.299466,0.47905 v 5.10993 q -2.459151,-0.70262 -4.918302,-1.05392 -2.459151,-0.38325 -4.758617,-0.38325 -4.886365,0 -7.18583,1.62879 -2.299466,1.62879 -2.299466,4.37537 0,1.69266 0.926173,2.90627 0.958111,1.21361 2.491088,2.17172 1.532978,0.95811 3.481136,1.75654 1.980096,0.76648 4.024065,1.59685 2.04397,0.83036 3.992129,1.82041 1.980095,0.99004 3.513072,2.36334 1.532978,1.34135 2.459151,3.16176 0.958111,1.82041 0.958111,4.3115 z"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:11.10000038;font-family:Consolas;-inkscape-font-specification:Consolas;stroke-width:0.87598699"
+             id="path843" />
+          <path
+             d="m -10.293892,359.80176 h -23.72921 v -41.74169 h 23.72921 v 4.79055 h -18.044419 v 12.93449 h 17.341805 v 4.79056 h -17.341805 v 14.37166 h 18.044419 z"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:11.10000038;font-family:Consolas;-inkscape-font-specification:Consolas;stroke-width:0.87598699"
+             id="path845" />
+          <path
+             d="m 29.148333,359.80176 h -6.419342 l -6.22772,-13.34968 q -0.702614,-1.53298 -1.437166,-2.52302 -0.734552,-1.02199 -1.596851,-1.59686 -0.830363,-0.6068 -1.852348,-0.86229 -0.990047,-0.2555 -2.2355915,-0.2555 H 6.6966044 v 18.58735 H 1.0118139 V 318.06007 H 12.189773 q 3.640821,0 6.259657,0.79842 2.618836,0.79843 4.279561,2.23559 1.692663,1.43717 2.459151,3.48114 0.798426,2.01203 0.798426,4.47118 0,1.94816 -0.574867,3.7047 -0.574866,1.7246 -1.724599,3.16176 -1.117796,1.40523 -2.810458,2.45915 -1.660726,1.02199 -3.832443,1.53298 1.756536,0.6068 2.970143,2.13978 1.245544,1.50104 2.523025,4.02407 z m -9.102052,-30.2763 q 0,-3.35339 -2.107844,-5.01412 -2.075906,-1.66072 -5.876412,-1.66072 H 6.6966044 v 13.79679 h 4.5989316 q 2.012033,0 3.608884,-0.44711 1.628788,-0.47906 2.746584,-1.3733 1.149733,-0.92617 1.756537,-2.23559 0.63874,-1.34135 0.63874,-3.06595 z"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:11.10000038;font-family:Consolas;-inkscape-font-specification:Consolas;stroke-width:0.87598699"
+             id="path847" />
+          <path
+             d="m 67.440826,318.06007 -14.18004,41.74169 H 45.5959 L 31.735231,318.06007 h 6.419342 l 9.006241,28.13651 2.554962,8.23976 2.618836,-8.23976 9.038179,-28.13651 z"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:11.10000038;font-family:Consolas;-inkscape-font-specification:Consolas;stroke-width:0.87598699"
+             id="path849" />
+          <path
+             d="m 82.738659,322.85062 h -9.613044 v -4.79055 h 24.974754 v 4.79055 h -9.613045 v 32.09671 h 9.613045 v 4.85443 H 73.125615 v -4.85443 h 9.613044 z"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:11.10000038;font-family:Consolas;-inkscape-font-specification:Consolas;stroke-width:0.87598699"
+             id="path851" />
+          <path
+             d="m 135.43475,358.23684 q -5.01411,2.07591 -10.50728,2.07591 -8.84656,0 -13.60517,-5.26961 -4.72668,-5.30155 -4.72668,-15.64914 0,-5.01411 1.30941,-9.07012 1.30942,-4.056 3.73664,-6.86646 2.42721,-2.84239 5.87641,-4.37537 3.4492,-1.53298 7.72876,-1.53298 2.90627,0 5.39736,0.511 2.49108,0.47905 4.79055,1.50104 v 5.58898 q -2.26753,-1.24555 -4.69474,-1.88429 -2.42722,-0.67068 -5.30155,-0.67068 -2.93821,0 -5.33348,1.1178 -2.36334,1.08586 -4.02407,3.1937 -1.66072,2.07591 -2.55496,5.10993 -0.89424,3.00208 -0.89424,6.86646 0,8.112 3.28952,12.23188 3.28951,4.11987 9.64498,4.11987 2.68271,0 5.14186,-0.6068 2.45915,-0.63874 4.72668,-1.75654 z"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:11.10000038;font-family:Consolas;-inkscape-font-specification:Consolas;stroke-width:0.87598699"
+             id="path853" />
+          <path
+             d="m 169.83093,359.80176 h -23.72921 v -41.74169 h 23.72921 v 4.79055 h -18.04442 v 12.93449 h 17.3418 v 4.79056 h -17.3418 v 14.37166 h 18.04442 z"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:11.10000038;font-family:Consolas;-inkscape-font-specification:Consolas;stroke-width:0.87598699"
+             id="path855" />
+        </g>
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot821"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:extra-condensed;font-size:74.66666412px;line-height:2.25;font-family:Algerian;-inkscape-font-specification:'Algerian, Extra-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+           transform="matrix(0.55572775,0,0,0.55572775,-118.73673,285.97936)"><flowRegion
+             id="flowRegion823"><rect
+               id="rect825"
+               width="1282.8572"
+               height="700"
+               x="-380"
+               y="-321.86948" /></flowRegion><flowPara
+             id="flowPara827" /></flowRoot>      </g>
     </g>
   </g>
 </svg>

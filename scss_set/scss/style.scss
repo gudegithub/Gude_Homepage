@@ -15,46 +15,52 @@ html {
   height: 7vh;
 }
 
-header {
+#index {
   width: 100vw;
   height: 100vh;
   display: block;
   position: relative;
   overflow-x: hidden;
-  background: linear-gradient(#676767, #FFFFFF);
-  #headerBg1 {
+  background: #FFFFFF;
+  #indexBg1 {
     position: absolute;
     top: -170px;
     right: -120px;
   }
-  #headerBg2 {
+  #indexBg2 {
     position: absolute;
     top: -260px;
     left: -320px;
   }
-  #headerBg3-1 {
+  #indexBg3-1 {
     position: absolute;
     top: 325px;
     left: 22px;
     animation: rotate 10s infinite;
   }
-  #headerBg3-2 {
+  #indexBg3-2 {
     position: absolute;
     top: 125px;
     right: 389px;
     animation: rotate 13s infinite;
   }
-  #headerBg3-3 {
+  #indexBg3-3 {
     position: absolute;
     top: 33px;
     left: 76px;
     animation: rotate 16s infinite;
   }
-  #headerBg3-4 {
+  #indexBg3-4 {
     position: absolute;
     top: 324px;
     right: 50px;
     animation: rotate 17s infinite;
+  }
+  #indexBg4 {
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
   #container_companyName {
     position: absolute;
@@ -130,7 +136,11 @@ main {
         img {
           width: 30vw;
           margin-top: 5vh;
+          transition: 1s;
           box-shadow: 3px 3px 2px #676767;
+          &:hover {
+            transform: scale(1.05);
+          }
         }
       }
       .container_serviceText {
@@ -139,7 +149,7 @@ main {
         margin: 0 2.5vw;
         position: relative;
         object {
-          width: 3vw;
+          width: 4vw;
           position: absolute;
           top: 30px;
           left: 15px;
