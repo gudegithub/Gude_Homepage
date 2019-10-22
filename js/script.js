@@ -5,39 +5,42 @@ function getScroll() {
   let scroll = element.scrollTop;
   // スクロール範囲の最大のピクセル数
   let range = element.scrollHeight;
-  // console.log(scroll);
-  // console.log(range);
 
-  if (scroll / range > 0.093) {
-    let contents_animation = document.getElementById('contents_animation');
-    contents_animation.classList.remove('none');
+  if (scroll / range >= 0.06) {
+    let missionTitle = document.getElementById('missionTitle');
+    missionTitle.classList.remove('none');
+    let mission = document.getElementById('mission');
+    mission.classList.remove('none');
   }
-  if (scroll / range > 0.1) {
-    let contents_animationExample_1 = document.getElementById('contents_animationExample_1');
-    contents_animationExample_1.classList.remove('none');
-    let contents_animationExample_2 = document.getElementById('contents_animationExample_2');
-    contents_animationExample_2.classList.remove('none');
-    let contents_animationExample_3 = document.getElementById('contents_animationExample_3');
-    contents_animationExample_3.classList.remove('none');
+  if (scroll / range >= 0.13) {
+    let text_mission = document.getElementById('text_mission');
+    text_mission.classList.remove('none');
   }
-  if (scroll / range > 0.28) {
-    let contents_cms = document.getElementById('contents_cms');
-    contents_cms.classList.remove('none');
+  if (scroll / range >= 0.22) {
+    let serviceTitle = document.getElementById('serviceTitle');
+    serviceTitle.classList.remove('none');
   }
-  if (scroll / range > 0.37) {
-    let contents_plansTitle = document.getElementById('contents_plansTitle');
-    contents_plansTitle.classList.remove('none');
+  if (scroll / range >= 0.28) {
+    let serviceItem1 = document.getElementById('serviceItem1');
+    serviceItem1.classList.remove('none');
   }
-  if (scroll / range > 0.43) {
-    let contents_plan_1 = document.getElementById('contents_plan_1');
-    contents_plan_1.classList.remove('none');
-    let contents_plan_2 = document.getElementById('contents_plan_2');
-    contents_plan_2.classList.remove('none');
+  if (scroll / range >= 0.32) {
+    let serviceItem2 = document.getElementById('serviceItem2');
+    serviceItem2.classList.remove('none');
   }
-  if (scroll / range > 0.53) {
-    let contents_buttonToForm = document.getElementById('contents_buttonToForm');
-    contents_buttonToForm.classList.remove('none');
+  if (scroll / range >= 0.38) {
+    let serviceItem3 = document.getElementById('serviceItem3');
+    serviceItem3.classList.remove('none');
   }
+  if (scroll / range >= 0.40) {
+    let companyTitle = document.getElementById('companyTitle');
+    companyTitle.classList.remove('none');
+  }
+  if (scroll / range >= 0.53) {
+    let box_company = document.getElementById('box_company');
+    box_company.classList.remove('none');
+  }
+  console.log(scroll / range);
 }
 
 setInterval("getScroll()", 100);

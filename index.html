@@ -49,8 +49,8 @@
       <object id="indexBg3-3" type="image/svg+xml" data="img/headerBg3.svg"></object>
       <object id="indexBg3-4" type="image/svg+xml" data="img/headerBg3.svg"></object>
       <div id="container_companyName">
-        <!-- <h2>Amasing Person</h2> -->
         <h1>Gude</h1>
+        <h2></h2>
       </div>
     </div>
     <main>
@@ -65,9 +65,9 @@
       <object id="mainBg9" type="image/svg+xml" data="img/mainBg9.svg"></object>
       <object id="mainBg10" type="image/svg+xml" data="img/mainBg10.svg"></object>
       <div id="container_mission">
-          <object id="missionTitle" type="image/svg+xml" data="img/missionTitle.svg"></object><br>
-          <object id="mission" type="image/svg+xml" data="img/mission.svg"></object>
-          <div id="text_mission">
+          <object id="missionTitle" class="none" type="image/svg+xml" data="img/missionTitle.svg"></object><br>
+          <object id="mission" class="none" type="image/svg+xml" data="img/mission.svg"></object>
+          <div id="text_mission" class="none">
             <p>
               インターンをしたくてもできない環境。<br>
               さらには、インターン活動を行なっている<br>
@@ -81,20 +81,20 @@
       </div>
       <div id="container_service">
         <div id="wrapper_service">
-          <object id="missionTitle" type="image/svg+xml" data="img/serviceTitle.svg"></object><br>
-          <div class="container_serviceItem">
+          <object id="serviceTitle" class="none" type="image/svg+xml" data="img/serviceTitle.svg"></object><br>
+          <div id="serviceItem1" class="container_serviceItem none">
             <div class="container_serviceImg">
               <a href="http://wcatch.gude.jp/">
                 <img src="img/img1.jpg" class="screenshot" alt="W-Catch">
               </a>
             </div>
-            <div id="container_serviceText2" class="container_serviceText">
+            <div id="container_serviceText1" class="container_serviceText">
               <object id="serviceNumber1" type="image/svg+xml" data="img/serviceNumber1.svg"></object><br>
               <h2>WEBサイト制作</h2>
               <p>ランディングページやコーポレートページなどのWEBページの作成をしております。</p>
             </div>
           </div>
-          <div class="container_serviceItem">
+          <div id="serviceItem2" class="container_serviceItem none">
             <div id="container_serviceText2" class="container_serviceText">
               <object id="serviceNumber2" type="image/svg+xml" data="img/serviceNumber2.svg"></object><br>
               <h2>WEBメディア運営</h2>
@@ -106,7 +106,7 @@
               </a>
             </div>
           </div>
-            <div class="container_serviceItem">
+            <div id="serviceItem3" class="container_serviceItem none">
               <div class="container_serviceImg">
                 <a href="http://career-walk.com/users/sign_in">
                   <img src="img/img3.jpg" class="screenshot" alt="Career Walk">
@@ -122,8 +122,8 @@
         </div>
       </div>
       <div id="container_company">
-        <object id="companyTitle" type="image/svg+xml" data="img/companyTitle.svg"></object><br>
-        <div id="box_company">
+        <object id="companyTitle" class="none" type="image/svg+xml" data="img/companyTitle.svg"></object><br>
+        <div id="box_company" class="none">
           <h1>株式会社Gude</h1>
           <table border="0" cellspacing="15">
             <tr>
@@ -197,7 +197,7 @@
       </div>
     </footer>
     <!-- 自前のJS -->
-    <!-- <script type="text/javascript" src="js/script.js"></script> -->
+    <script type="text/javascript" src="js/script.js"></script>
       <!-- エラーメッセージJS -->
     <script type="text/javascript" src="js/error_message.js"></script>
     <!-- メールフォームのJS,PHP -->
