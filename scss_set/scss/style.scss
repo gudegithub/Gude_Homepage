@@ -7,7 +7,7 @@
 html {
   scroll-behavior: smooth;
   body {
-    background-color: #3F3F3F;
+    background-color: #aff4f4;
     overflow-x: hidden;
     font-family: 'Noto Sans Japanese', sans-serif;
   }
@@ -20,7 +20,7 @@ header {
   position: fixed;
   top: 0;
   display: flex;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0); //透明色
   text-align: right;
   #headerLogo {
     position: absolute;
@@ -33,7 +33,7 @@ header {
     position: relative;
     transition: 0.6s;
     &:hover {
-      background-color: rgba(0,223,252,0.2);
+      // background-color: rgba(0,223,252,0.2);
     }
     p {
       position: absolute;
@@ -56,6 +56,13 @@ header {
   position: relative;
   overflow-x: hidden;
   background: #FFFFFF;
+  canvas {
+    height: 100%;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
   #indexBg1 {
     position: absolute;
     top: -170px;
@@ -105,20 +112,22 @@ header {
     transition: 1s;
     animation: fadeinCentered 1s;
     h2 {
-      margin-top: 3vh;
-      font-size: 32px;
+      margin-top: 9vh;
+      font-size: 28px;
       color: #000000;
+      user-select: none;
     }
     h1 {
       font-size: 110px;
       color: #000000;
+      user-select: none;
     }
   }
 }
 
 main {
   width: 100vw;
-  height: 500vh;
+  height: 495vh;
   background-color: #ffffff;
   overflow: hidden;
   position: relative;
@@ -231,7 +240,7 @@ main {
     height: 130vh;
     margin: 20vh 0;
     position: absolute;
-    bottom: 10vh;
+    bottom: 2vh;
     text-align: center;
     #companyTitle {
       margin-top: 5vh;
@@ -334,9 +343,9 @@ main {
 }
 
 footer {
-  background-color: #3F3F3F;
+  background-color: #aff4f4;
   #container_contact {
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     h1 {
       padding: 5vh 0;
@@ -378,7 +387,7 @@ footer {
   #container_copyright {
     margin-right: 20px;
     margin-bottom: 10px;
-    color: #ffffff;
+    color: #000000;
     text-align: right;
     p {
       font-size: 10px;
@@ -501,7 +510,7 @@ footer {
       height: 80vh;
       margin: 0 !important;
       position: absolute;
-      bottom: 10vh !important;
+      bottom: 5vh !important;
       #companyTitle {
         width: 34vw !important;
       }
