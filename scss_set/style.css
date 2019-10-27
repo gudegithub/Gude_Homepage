@@ -560,6 +560,7 @@ footer #container_copyright p {
     font-size: 18px !important;
   }
   main #container_service .container_serviceItem .container_serviceText p {
+    margin-top: 1vh;
     font-size: 13px !important;
   }
   main #container_company {
