@@ -40,7 +40,7 @@ function getScroll() {
     let box_company = document.getElementById('box_company');
     box_company.classList.remove('none');
   }
-  console.log(scroll / range);
+  // console.log(scroll / range);
 }
 
 setInterval("getScroll()", 100);

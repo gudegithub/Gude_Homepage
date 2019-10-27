@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="540.86511mm"
+   width="769.16272mm"
    height="81.798164mm"
-   viewBox="0 0 540.86512 81.798168"
+   viewBox="0 0 769.16273 81.798168"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="1178.645"
-     inkscape:cy="314.22555"
+     inkscape:zoom="0.35"
+     inkscape:cx="1857.7398"
+     inkscape:cy="406.72436"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -57,18 +57,22 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(125.48809,-95.160712)">
-    <path
-       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.2240231;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m -66.304425,95.79976 -59.183665,80.64789 489.98795,0.51123 50.87719,-81.798168 z"
-       id="path815"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
-    <path
-       style="fill:#80ccff;fill-opacity:1;stroke:none;stroke-width:4.97210932;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m -59.696994,100.72044 -52.459926,70.62629 468.09493,0.44771 46.43185,-71.63364 z"
-       id="path815-6"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+    <g
+       id="g822"
+       transform="matrix(1.4220971,0,0,1,52.968161,0)">
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path815"
+         d="m -66.304425,95.79976 -59.183665,80.64789 489.98795,0.51123 50.87719,-81.798168 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.2240231;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path815-6"
+         d="m -59.696994,100.72044 -52.459926,70.62629 468.09493,0.44771 46.43185,-71.63364 z"
+         style="fill:#80ccff;fill-opacity:1;stroke:none;stroke-width:4.97210932;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
     <flowRoot
        xml:space="preserve"
        id="flowRoot832"
@@ -82,14 +86,14 @@
            y="291.72501" /></flowRegion><flowPara
          id="flowPara838" /></flowRoot>    <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.00923157px;line-height:2.25;font-family:'Calisto MT';-inkscape-font-specification:'Calisto MT';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.38851649"
-       x="-64.780548"
-       y="145.69275"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.70309448px;line-height:2.25;font-family:'Calisto MT';-inkscape-font-specification:'Calisto MT';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.41120216"
+       x="-42.485744"
+       y="147.82497"
        id="text842"><tspan
          sodipodi:role="line"
          id="tspan840"
-         x="-64.780548"
-         y="145.69275"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Old English Text MT';-inkscape-font-specification:'Old English Text MT';fill:#ffffff;fill-opacity:1;stroke-width:0.38851649">情報格差による機会損失をなくす</tspan></text>
+         x="-42.485744"
+         y="147.82497"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Monotype Corsiva';-inkscape-font-specification:'Monotype Corsiva';fill:#ffffff;fill-opacity:1;stroke-width:0.41120216">ミレニアム世代の顕在化する悩みを解決する</tspan></text>
   </g>
 </svg>

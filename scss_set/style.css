@@ -26,7 +26,7 @@ header {
 
 header .headerItem {
   width: 12vw;
-  height: 10vh;
+  height: 100%;
   position: relative;
   transition: 0.6s;
 }
@@ -145,7 +145,7 @@ main #container_mission #missionTitle {
 }
 
 main #container_mission #mission {
-  width: 30vw;
+  width: 36vw;
   margin-top: 6vh;
   transition: 1s;
   animation: fadein 1s;
@@ -462,5 +462,132 @@ footer #container_copyright p {
   100% {
     opacity: 1;
     transform: translateX(-50%) translateY(0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 5vh;
+  }
+  header .headerItem {
+    width: 20vw;
+  }
+  header .headerItem p {
+    font-size: 16px;
+  }
+  header #headerItem_first {
+    margin-left: 20vw;
+  }
+  #index {
+    height: 30vh;
+    overflow-y: hidden;
+  }
+  #index #indexBg1 {
+    top: -250px;
+    right: -320px;
+    transform: scale(0.5);
+  }
+  #index #indexBg2 {
+    top: -330px;
+    left: -390px;
+    transform: scale(0.5);
+  }
+  #index #indexBg3-1 {
+    display: none;
+  }
+  #index #indexBg3-2 {
+    display: none;
+  }
+  #index #indexBg3-3 {
+    display: none;
+  }
+  #index #indexBg3-4 {
+    display: none;
+  }
+  #index #container_companyName {
+    top: 14vh;
+  }
+  main {
+    height: 300vh;
+  }
+  main #container_mission {
+    top: 10vh;
+  }
+  main #container_mission #missionTitle {
+    width: 34vw;
+  }
+  main #container_mission #mission {
+    width: 50vw;
+  }
+  main #container_service {
+    top: 80vh;
+  }
+  main #container_service #serviceTitle {
+    width: 34vw;
+  }
+  main #container_service .container_serviceItem {
+    width: 70vw;
+    margin: 2vh 15vw 3vh 15vw;
+  }
+  main #container_service .container_serviceItem .container_serviceImg {
+    height: 20vh;
+    margin: 0 2.5vw;
+  }
+  main #container_service .container_serviceItem .container_serviceImg img {
+    width: 30vw;
+    margin-top: 5vh;
+  }
+  main #container_service .container_serviceItem .container_serviceText {
+    height: 20vh;
+    margin: 0 2.5vw;
+  }
+  main #container_service .container_serviceItem .container_serviceText object {
+    width: 4vw;
+    position: absolute;
+    top: 30px;
+    left: 15px;
+  }
+  main #container_service .container_serviceItem .container_serviceText h2 {
+    margin-top: 3vh;
+    font-size: 18px !important;
+  }
+  main #container_service .container_serviceItem .container_serviceText p {
+    margin-top: 2vh;
+    font-size: 13px;
+    text-align: left;
+  }
+  #container_company {
+    height: 80vh;
+    margin: 0 !important;
+    position: absolute;
+    bottom: 0 !important;
+  }
+  #container_company #companyTitle {
+    width: 34vw !important;
+  }
+  #container_company #box_company {
+    width: 80vw !important;
+    margin: 5vh 10vw 0 10vw !important;
+  }
+  #container_company #box_company h1 {
+    font-size: 31px;
+    padding: 5vh 0 4vh 0 !important;
+  }
+  #container_company #box_company table {
+    width: 70vw !important;
+    margin-left: 5vw !important;
+  }
+  #container_company #box_company table .text_small {
+    font-size: 12px;
+  }
+  #container_company #box_company table td {
+    vertical-align: middle;
+    font-size: 12px !important;
+  }
+  #container_company #box_company #container_map {
+    width: 50vw;
+    padding: 5vh 0 !important;
+    margin-left: 15vw !important;
+    overflow: hidden;
   }
 }

@@ -24,7 +24,7 @@ header {
   text-align: right;
   .headerItem {
     width: 12vw;
-    height: 10vh;
+    height: 100%;
     position: relative;
     transition: 0.6s;
     &:hover {
@@ -126,7 +126,7 @@ main {
       animation: fadein 1s;
     }
     #mission {
-      width: 30vw;
+      width: 36vw;
       margin-top: 6vh;
       transition: 1s;
       animation: fadein 1s;
@@ -386,4 +386,131 @@ footer {
 @keyframes fadeinCentered {
   0% {opacity: 0; transform: translateX(-50%) translateY(-10px)}
   100% {opacity: 1; transform: translateX(-50%) translateY(0)}
+}
+
+@media screen and (max-width:768px) {
+  header {
+    height: 5vh;
+    .headerItem {
+      width: 20vw;
+      p {
+        font-size: 16px;
+      }
+    }
+    #headerItem_first {
+      margin-left: 20vw;
+    }
+  }
+  #index {
+    height: 30vh;
+    overflow-y: hidden;
+    #indexBg1 {
+      top: -250px;
+      right: -320px;
+      transform: scale(0.5);
+    }
+    #indexBg2 {
+      top: -330px;
+      left: -390px;
+      transform: scale(0.5);
+    }
+    #indexBg3-1 {
+      display: none;
+    }
+    #indexBg3-2 {
+      display: none;
+    }
+    #indexBg3-3 {
+      display: none;
+    }
+    #indexBg3-4 {
+      display: none;
+    }
+    #container_companyName {
+      top: 14vh;
+    }
+  }
+  main {
+    height: 300vh;
+    #container_mission {
+      top: 10vh;
+      #missionTitle {
+        width: 34vw;
+      }
+      #mission {
+        width: 50vw;
+      }
+    }
+    #container_service {
+      top: 80vh;
+      #serviceTitle {
+        width: 34vw;
+      }
+      .container_serviceItem {
+        width: 70vw;
+        margin: 2vh 15vw 3vh 15vw;
+        .container_serviceImg {
+          height: 20vh;
+          margin: 0 2.5vw;
+          img {
+            width: 30vw;
+            margin-top: 5vh;
+          }
+        }
+        .container_serviceText {
+          height: 20vh;
+          margin: 0 2.5vw;
+          object {
+            width: 4vw;
+            position: absolute;
+            top: 30px;
+            left: 15px;
+          }
+          h2 {
+            margin-top: 3vh;
+            font-size: 18px !important;
+          }
+          p {
+            margin-top: 2vh;
+            font-size: 13px;
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+  #container_company {
+    height: 80vh;
+    margin: 0 !important;
+    position: absolute;
+    bottom: 0 !important;
+    #companyTitle {
+      width: 34vw !important;
+    }
+    #box_company {
+      width: 80vw !important;
+      margin: 5vh 10vw 0 10vw !important;
+      h1 {
+        font-size: 31px;
+        padding: 5vh 0 4vh 0 !important;
+      }
+      table {
+        width: 70vw !important;
+        margin-left: 5vw !important;
+        .text_small {
+          font-size: 12px;
+        }
+        td {
+          vertical-align: middle;
+          font-size: 12px !important;
+        }
+      }
+      #container_map {
+        width: 50vw;
+        padding: 5vh 0 !important;
+        margin-left: 15vw !important;
+        overflow: hidden;
+      }
+    }
+  }
 }
