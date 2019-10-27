@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 .none {
   display: none !important;
 }
@@ -124,7 +124,7 @@ header #headerItem_first {
 
 main {
   width: 100vw;
-  height: 560vh;
+  height: 500vh;
   background-color: #ffffff;
   overflow: hidden;
   position: relative;
@@ -161,14 +161,14 @@ main #container_mission #text_mission {
 }
 
 main #container_mission #text_mission p {
-  font-size: 14px;
+  font-size: 17px;
   line-height: 40px;
 }
 
 main #container_service {
   width: 100vw;
   position: absolute;
-  top: 140vh;
+  top: 110vh;
   text-align: center;
 }
 
@@ -227,7 +227,7 @@ main #container_service .container_serviceItem .container_serviceText h2 {
 
 main #container_service .container_serviceItem .container_serviceText p {
   margin-top: 5vh;
-  font-size: 13px;
+  font-size: 17px;
   text-align: left;
 }
 
@@ -560,9 +560,7 @@ footer #container_copyright p {
     font-size: 18px !important;
   }
   main #container_service .container_serviceItem .container_serviceText p {
-    margin-top: 2vh;
-    font-size: 13px;
-    text-align: left;
+    font-size: 13px !important;
   }
   main #container_company {
     height: 80vh;
