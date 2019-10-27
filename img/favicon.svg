@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="235.15309mm"
-   height="225.30353mm"
-   viewBox="0 0 235.15309 225.30353"
+   width="254.01369mm"
+   height="245.48615mm"
+   viewBox="0 0 254.01369 245.48615"
    version="1.1"
    id="svg8"
    sodipodi:docname="favicon.svg"
@@ -26,20 +26,20 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="-231.65211"
-     inkscape:cy="426.68375"
+     inkscape:cx="-325.59016"
+     inkscape:cy="522.7779"
      inkscape:document-units="mm"
-     inkscape:current-layer="g868"
+     inkscape:current-layer="text860"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="986"
      inkscape:window-x="-11"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0" />
+     fit-margin-top="10"
+     fit-margin-left="10"
+     fit-margin-right="10"
+     fit-margin-bottom="10" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -56,46 +56,79 @@
      inkscape:label="レイヤー 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(9.012284,-36.423213)">
+     transform="translate(18.990484,-26.423213)">
     <g
        id="g868"
        transform="translate(373.44048,78.619048)">
       <g
-         id="g848">
-        <rect
-           style="opacity:1;fill:#5271ff;fill-opacity:1;stroke:none;stroke-width:3.04871774;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-           id="rect826"
-           width="68.035713"
-           height="71.059525"
-           x="-259.06488"
-           y="35.516071" />
-        <rect
-           style="opacity:1;fill:#9cecef;fill-opacity:1;stroke:none;stroke-width:3.01465273;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-           id="rect826-6"
-           width="66.523811"
-           height="71.059525"
-           x="-336.70135"
-           y="35.516071" />
-        <rect
-           style="opacity:1;fill:#748dff;fill-opacity:1;stroke:none;stroke-width:3.01594019;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-           id="rect843"
-           width="68.035713"
-           height="70.303566"
-           x="-259.06488"
-           y="-42.195835" />
+         aria-label="Gude Inc"
+         transform="scale(1.0080382,0.99202589)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:extra-condensed;font-size:72.7637558px;line-height:2.25;font-family:Algerian;-inkscape-font-specification:'Algerian, Extra-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.97451448"
+         id="text860">
+        <g
+           id="g852">
+          <g
+             id="g848"
+             transform="matrix(0.99202591,0,0,1.0080382,1.4663026e-6,2.0057396e-7)">
+            <rect
+               y="35.516071"
+               x="-259.06488"
+               height="71.059525"
+               width="68.035713"
+               id="rect826"
+               style="opacity:1;fill:#5271ff;fill-opacity:1;stroke:none;stroke-width:3.04871774;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+            <rect
+               y="35.516071"
+               x="-336.70135"
+               height="71.059525"
+               width="66.523811"
+               id="rect826-6"
+               style="opacity:1;fill:#9cecef;fill-opacity:1;stroke:none;stroke-width:3.01465273;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+            <rect
+               y="-42.195835"
+               x="-259.06488"
+               height="70.303566"
+               width="68.035713"
+               id="rect843"
+               style="opacity:1;fill:#748dff;fill-opacity:1;stroke:none;stroke-width:3.01594019;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+          </g>
+          <path
+             inkscape:connector-curvature="0"
+             id="path822"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Franklin Gothic Medium Cond';-inkscape-font-specification:'Franklin Gothic Medium Cond';stroke-width:0.97451448"
+             d="m -361.26154,159.00499 h 16.20131 v 25.22571 h -4.2635 l -1.06588,-6.14654 q -3.69503,6.67948 -11.6891,6.67948 -8.13618,0 -12.71944,-6.5729 -4.58327,-6.60842 -4.58327,-17.9067 0,-11.90228 4.51221,-18.83047 4.54773,-6.96371 13.92744,-6.96371 13.07473,0 15.63283,14.78013 l -7.24795,1.81199 q -1.27905,-6.25313 -3.44633,-8.10065 -2.16728,-1.84752 -5.1162,-1.84752 -9.77052,0 -9.77052,18.43964 0,18.54624 10.01922,18.54624 8.31383,0 8.31383,-12.68392 h -8.70465 z" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path824"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Franklin Gothic Medium Cond';-inkscape-font-specification:'Franklin Gothic Medium Cond';stroke-width:0.97451448"
+             d="m -337.3504,147.99094 h 7.4256 v 22.80973 q 0,4.76091 0.78164,6.39526 0.78164,1.59881 3.44633,1.59881 3.30421,0 4.61879,-2.87786 1.31458,-2.87787 1.31458,-10.65876 v -17.26718 h 7.39007 v 35.88447 h -6.78607 v -5.40043 q -2.87787,6.28866 -9.131,6.28866 -3.19763,0 -5.25832,-1.35011 -2.02516,-1.35011 -2.91339,-3.83715 -0.88823,-2.48704 -0.88823,-8.63359 z" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path826"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Franklin Gothic Medium Cond';-inkscape-font-specification:'Franklin Gothic Medium Cond';stroke-width:0.97451448"
+             d="m -284.87381,135.37808 h 7.35454 v 48.49733 h -6.78607 v -5.43596 q -2.59363,6.07549 -8.91782,6.07549 -6.07549,0 -9.131,-5.08068 -3.01998,-5.08067 -3.01998,-13.32344 0,-8.84676 3.33974,-13.78532 3.37527,-4.93855 8.95335,-4.93855 5.86232,0 8.20724,4.76091 z m 0,27.393 q 0,-5.54255 -2.09622,-7.74536 -2.09622,-2.23834 -4.33456,-2.23834 -6.18208,0 -6.18208,12.64839 0,13.50109 6.25314,13.50109 2.41598,0 4.37009,-2.23834 1.98963,-2.23834 1.98963,-7.78089 z" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path828"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Franklin Gothic Medium Cond';-inkscape-font-specification:'Franklin Gothic Medium Cond';stroke-width:0.97451448"
+             d="m -242.80726,167.03458 h -20.28716 q 0,7.28348 1.9541,9.735 1.98964,2.41598 4.97409,2.41598 4.97408,0 6.28866,-6.71501 l 6.75054,0.88823 q -2.66468,11.40486 -13.28791,11.40486 -6.50184,0 -10.37452,-4.65432 -3.87268,-4.65432 -3.87268,-13.64321 0,-9.23758 3.90821,-14.28272 3.90821,-5.04515 10.44558,-5.04515 4.58326,0 7.70983,2.52257 3.12657,2.52258 4.40562,6.64396 1.27905,4.08586 1.38564,10.72981 z m -7.56772,-5.00961 q 0,-9.48629 -6.18207,-9.48629 -5.79126,0 -6.35973,9.48629 z" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path830"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Franklin Gothic Medium Cond';-inkscape-font-specification:'Franklin Gothic Medium Cond';stroke-width:0.97451448"
+             d="m -222.69774,135.37808 h 8.02959 v 48.49733 h -8.02959 z" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path832"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Franklin Gothic Medium Cond';-inkscape-font-specification:'Franklin Gothic Medium Cond';stroke-width:0.97451448"
+             d="m -205.64374,147.99094 h 6.85714 v 5.54255 q 2.48704,-6.39525 8.88229,-6.39525 3.62398,0 5.82679,1.74093 2.23833,1.74093 2.8068,4.19244 0.604,2.41599 0.604,7.67431 v 23.12949 h -7.39007 v -22.73867 q 0,-4.68985 -0.81717,-6.35972 -0.81717,-1.70541 -3.48186,-1.70541 -2.77128,0 -4.33456,2.16728 -1.52776,2.13176 -1.52776,8.52701 v 20.10951 h -7.4256 z" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path834"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Franklin Gothic Medium Cond';-inkscape-font-specification:'Franklin Gothic Medium Cond';stroke-width:0.97451448"
+             d="m -147.23378,160.07086 -7.14136,0.78164 q -0.53294,-4.68985 -1.81199,-6.25313 -1.27905,-1.59881 -3.62397,-1.59881 -3.30422,0 -4.79644,3.05551 -1.49223,3.01998 -1.49223,10.65875 0,11.9378 6.28867,11.9378 4.83196,0 5.43596,-7.78089 l 7.14136,0.63953 q -1.45669,13.25238 -13.11026,13.25238 -6.89266,0 -10.23241,-4.97408 -3.30421,-4.97409 -3.30421,-13.7498 0,-9.23758 3.58845,-14.06955 3.58844,-4.83197 10.44558,-4.83197 11.04957,0 12.61285,12.93262 z" />
+        </g>
       </g>
-      <text
-         transform="scale(1.0337854,0.96731872)"
-         id="text860"
-         y="188.69621"
-         x="-372.81714"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:extra-condensed;font-size:64.44244385px;line-height:2.25;font-family:Algerian;-inkscape-font-specification:'Algerian, Extra-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.8630684"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri;stroke-width:0.8630684"
-           y="188.69621"
-           x="-372.81714"
-           id="tspan858"
-           sodipodi:role="line">Gude Inc</tspan></text>
     </g>
   </g>
 </svg>
