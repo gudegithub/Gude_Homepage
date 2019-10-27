@@ -97,12 +97,15 @@ header {
     left: 50vw;
     transform: translateX(-50%);
     text-align: center;
+    transition: 1s;
+    animation: fadeinCentered 1s;
     h2 {
-      font-size: 42px;
+      margin-top: 3vh;
+      font-size: 32px;
       color: #000000;
     }
     h1 {
-      font-size: 100px;
+      font-size: 110px;
       color: #000000;
     }
   }
@@ -436,6 +439,10 @@ footer {
     }
     #container_companyName {
       top: 14vh;
+      h2 {
+        margin-top: 1vh;
+        font-size: 21px;
+      }
     }
   }
   main {

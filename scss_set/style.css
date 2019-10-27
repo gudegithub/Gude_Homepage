@@ -110,15 +110,18 @@ header #headerItem_first {
   left: 50vw;
   transform: translateX(-50%);
   text-align: center;
+  transition: 1s;
+  animation: fadeinCentered 1s;
 }
 
 #index #container_companyName h2 {
-  font-size: 42px;
+  margin-top: 3vh;
+  font-size: 32px;
   color: #000000;
 }
 
 #index #container_companyName h1 {
-  font-size: 100px;
+  font-size: 110px;
   color: #000000;
 }
 
@@ -514,6 +517,10 @@ footer #container_copyright p {
   }
   #index #container_companyName {
     top: 14vh;
+  }
+  #index #container_companyName h2 {
+    margin-top: 1vh;
+    font-size: 21px;
   }
   main {
     height: 290vh;
