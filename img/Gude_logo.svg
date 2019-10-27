@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="15.501656mm"
+   height="14.936129mm"
+   viewBox="0 0 15.501656 14.936129"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="Gude_logo.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="220.56086"
+     inkscape:cy="-40.405508"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g868"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     fit-margin-top="1"
+     fit-margin-left="1"
+     fit-margin-right="1"
+     fit-margin-bottom="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="レイヤー 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(10.01228,-35.423214)">
+    <g
+       id="g868"
+       transform="translate(373.44048,78.619048)">
+      <g
+         id="g828"
+         transform="matrix(0.05741645,0,0,0.05741645,-360.49368,-39.773099)">
+        <g
+           id="g848">
+          <rect
+             y="35.516071"
+             x="-259.06488"
+             height="71.059525"
+             width="68.035713"
+             id="rect826"
+             style="opacity:1;fill:#5271ff;fill-opacity:1;stroke:none;stroke-width:3.04871774;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+          <rect
+             y="35.516071"
+             x="-336.70135"
+             height="71.059525"
+             width="66.523811"
+             id="rect826-6"
+             style="opacity:1;fill:#9cecef;fill-opacity:1;stroke:none;stroke-width:3.01465273;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+          <rect
+             y="-42.195835"
+             x="-259.06488"
+             height="70.303566"
+             width="68.035713"
+             id="rect843"
+             style="opacity:1;fill:#748dff;fill-opacity:1;stroke:none;stroke-width:3.01594019;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:extra-condensed;font-size:64.44244385px;line-height:2.25;font-family:Algerian;-inkscape-font-specification:'Algerian, Extra-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.8630684"
+           x="-372.81714"
+           y="188.69621"
+           id="text860"
+           transform="scale(1.0337854,0.96731872)"><tspan
+             sodipodi:role="line"
+             id="tspan858"
+             x="-372.81714"
+             y="188.69621"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri;stroke-width:0.8630684">Gude Inc</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

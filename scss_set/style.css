@@ -24,6 +24,12 @@ header {
   text-align: right;
 }
 
+header #headerLogo {
+  position: absolute;
+  top: 0;
+  left: 1vw;
+}
+
 header .headerItem {
   width: 12vw;
   height: 100%;
