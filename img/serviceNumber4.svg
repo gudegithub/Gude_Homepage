@@ -15,7 +15,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="serviceNumber3.svg">
+   sodipodi:docname="serviceNumber4.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="-100.6555"
-     inkscape:cy="-230.26941"
+     inkscape:zoom="0.7"
+     inkscape:cx="-620.11178"
+     inkscape:cy="-192.11438"
      inkscape:document-units="mm"
      inkscape:current-layer="layer3"
      showgrid="false"
@@ -132,6 +132,6 @@
          x="-70.076149"
          y="78.497086"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Britannic Bold';-inkscape-font-specification:'Britannic Bold, ';stroke-width:1.36687696"
-         id="tspan823">3</tspan></text>
+         id="tspan823">4</tspan></text>
   </g>
 </svg>

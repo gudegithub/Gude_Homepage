@@ -41,7 +41,7 @@ header .headerItem p {
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   font-size: 16px;
-  color: #3F3F3F;
+  color: #000000;
 }
 
 header #headerItem_first {
@@ -114,17 +114,17 @@ header #headerItem_first {
 
 #index #container_companyName h2 {
   font-size: 42px;
-  color: #3F3F3F;
+  color: #000000;
 }
 
 #index #container_companyName h1 {
   font-size: 100px;
-  color: #3F3F3F;
+  color: #000000;
 }
 
 main {
   width: 100vw;
-  height: 500vh;
+  height: 560vh;
   background-color: #ffffff;
   overflow: hidden;
   position: relative;
@@ -240,7 +240,11 @@ main #container_service .container_serviceItem #container_serviceText2 h2 {
 }
 
 main #container_service .container_serviceItem #container_serviceText3 h2 {
-  font-size: 26px;
+  font-size: 30px;
+}
+
+main #container_service .container_serviceItem #container_serviceText4 h2 {
+  font-size: 30px;
 }
 
 main #container_company {
@@ -248,13 +252,13 @@ main #container_company {
   height: 130vh;
   margin: 20vh 0;
   position: absolute;
-  bottom: 20vh;
+  bottom: 10vh;
   text-align: center;
 }
 
 main #container_company #companyTitle {
   margin-top: 5vh;
-  width: 14vw;
+  width: 17vw;
   animation: fadein 1s;
 }
 
@@ -414,6 +418,10 @@ footer #container_contact .submit_button {
   cursor: pointer;
 }
 
+footer #container_contact .optional {
+  display: none;
+}
+
 footer #container_copyright {
   margin-right: 20px;
   margin-bottom: 10px;
@@ -508,7 +516,7 @@ footer #container_copyright p {
     top: 14vh;
   }
   main {
-    height: 300vh;
+    height: 290vh;
   }
   main #container_mission {
     top: 10vh;
@@ -556,35 +564,35 @@ footer #container_copyright p {
     font-size: 13px;
     text-align: left;
   }
-  #container_company {
+  main #container_company {
     height: 80vh;
     margin: 0 !important;
     position: absolute;
-    bottom: 0 !important;
+    bottom: 10vh !important;
   }
-  #container_company #companyTitle {
+  main #container_company #companyTitle {
     width: 34vw !important;
   }
-  #container_company #box_company {
+  main #container_company #box_company {
     width: 80vw !important;
-    margin: 5vh 10vw 0 10vw !important;
+    margin: 3vh 10vw 10vh 10vw !important;
   }
-  #container_company #box_company h1 {
+  main #container_company #box_company h1 {
     font-size: 31px;
     padding: 5vh 0 4vh 0 !important;
   }
-  #container_company #box_company table {
+  main #container_company #box_company table {
     width: 70vw !important;
     margin-left: 5vw !important;
   }
-  #container_company #box_company table .text_small {
+  main #container_company #box_company table .text_small {
     font-size: 12px;
   }
-  #container_company #box_company table td {
+  main #container_company #box_company table td {
     vertical-align: middle;
     font-size: 12px !important;
   }
-  #container_company #box_company #container_map {
+  main #container_company #box_company #container_map {
     width: 50vw;
     padding: 5vh 0 !important;
     margin-left: 15vw !important;

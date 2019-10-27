@@ -36,7 +36,7 @@ header {
       left: 50%;
       transform: translateX(-50%) translateY(-50%);
       font-size: 16px;
-      color: #3F3F3F;
+      color: #000000;
     }
   }
   #headerItem_first {
@@ -99,18 +99,18 @@ header {
     text-align: center;
     h2 {
       font-size: 42px;
-      color: #3F3F3F;
+      color: #000000;
     }
     h1 {
       font-size: 100px;
-      color: #3F3F3F;
+      color: #000000;
     }
   }
 }
 
 main {
   width: 100vw;
-  height: 500vh;
+  height: 560vh;
   background-color: #ffffff;
   overflow: hidden;
   position: relative;
@@ -208,7 +208,12 @@ main {
       }
       #container_serviceText3 {
         h2 {
-          font-size: 26px;
+          font-size: 30px;
+        }
+      }
+      #container_serviceText4 {
+        h2 {
+          font-size: 30px;
         }
       }
     }
@@ -218,11 +223,11 @@ main {
     height: 130vh;
     margin: 20vh 0;
     position: absolute;
-    bottom: 20vh;
+    bottom: 10vh;
     text-align: center;
     #companyTitle {
       margin-top: 5vh;
-      width: 14vw;
+      width: 17vw;
       animation: fadein 1s;
     }
     #box_company {
@@ -358,6 +363,9 @@ footer {
       font-size: 13px;
       cursor: pointer;
     }
+    .optional {
+      display: none;
+    }
   }
   #container_copyright {
     margin-right: 20px;
@@ -431,7 +439,7 @@ footer {
     }
   }
   main {
-    height: 300vh;
+    height: 290vh;
     #container_mission {
       top: 10vh;
       #missionTitle {
@@ -478,38 +486,38 @@ footer {
         }
       }
     }
-  }
-  #container_company {
-    height: 80vh;
-    margin: 0 !important;
-    position: absolute;
-    bottom: 0 !important;
-    #companyTitle {
-      width: 34vw !important;
-    }
-    #box_company {
-      width: 80vw !important;
-      margin: 5vh 10vw 0 10vw !important;
-      h1 {
-        font-size: 31px;
-        padding: 5vh 0 4vh 0 !important;
+    #container_company {
+      height: 80vh;
+      margin: 0 !important;
+      position: absolute;
+      bottom: 10vh !important;
+      #companyTitle {
+        width: 34vw !important;
       }
-      table {
-        width: 70vw !important;
-        margin-left: 5vw !important;
-        .text_small {
-          font-size: 12px;
+      #box_company {
+        width: 80vw !important;
+        margin: 3vh 10vw 10vh 10vw !important;
+        h1 {
+          font-size: 31px;
+          padding: 5vh 0 4vh 0 !important;
         }
-        td {
-          vertical-align: middle;
-          font-size: 12px !important;
+        table {
+          width: 70vw !important;
+          margin-left: 5vw !important;
+          .text_small {
+            font-size: 12px;
+          }
+          td {
+            vertical-align: middle;
+            font-size: 12px !important;
+          }
         }
-      }
-      #container_map {
-        width: 50vw;
-        padding: 5vh 0 !important;
-        margin-left: 15vw !important;
-        overflow: hidden;
+        #container_map {
+          width: 50vw;
+          padding: 5vh 0 !important;
+          margin-left: 15vw !important;
+          overflow: hidden;
+        }
       }
     }
   }

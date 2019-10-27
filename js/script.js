@@ -33,10 +33,14 @@ function getScroll() {
     serviceItem3.classList.remove('none');
   }
   if (scroll / range >= 0.40) {
+    let serviceItem4 = document.getElementById('serviceItem4');
+    serviceItem4.classList.remove('none');
+  }
+  if (scroll / range >= 0.45) {
     let companyTitle = document.getElementById('companyTitle');
     companyTitle.classList.remove('none');
   }
-  if (scroll / range >= 0.53) {
+  if (scroll / range >= 0.56) {
     let box_company = document.getElementById('box_company');
     box_company.classList.remove('none');
   }
