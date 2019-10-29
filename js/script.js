@@ -47,11 +47,14 @@ function getScroll() {
   // console.log(scroll / range);
 }
 
+//100ミリ秒ごとに要素の出現の判定を行う
   setInterval("getScroll()", 100);
+
+
 
   (function () {
 
-  const MAX = 10,
+  const MAX = 18, //点を打つ基準の円の接線とベジェ曲線の接線の角度のずれの最大値. 度数法
       circles = [
           {
               center: {x:600, y:350},
@@ -72,8 +75,8 @@ function getScroll() {
   	this.radian = rota * (Math.PI / 180);
   	this.radius = r;
 
-  	this.speed = Math.random() * 1 + 2;
-  	this.r = Math.random() * 2 + 1;
+  	this.speed = Math.random() * 1 + 2; //円上の点の数
+  	this.r = Math.random() * 2 + 1; //点を打つ円の半径
   	this.rota = 0;
 
 
@@ -84,15 +87,15 @@ function getScroll() {
 
   		this.radius += plus;
 
-  		var cos = Math.cos(this.radian) * this.radius * 2.6;
-  		var sin = Math.sin(this.radian) * this.radius * 1.8;
+  		var cos = Math.cos(this.radian) * this.radius * 2.6; //点のx座標の指定.中心からの相対座標. 最後の係数が大きいほど横長
+  		var sin = Math.sin(this.radian) * this.radius * 1.8; //点のy座標の指定.中心からの相対座標. 最後の係数が大きいほど縦長.
 
   		this.x = cos + this.centerX;
   		this.y = sin + this.centerY;
 
   		this.rota += this.speed;
 
-  		if(this.rota > 360){ this.rota -= 360; };
+  		if(this.rota > 360){ this.rota -= 360; }; //rotaを常に2πrad(360deg)以下にする.
   	}
   }
 
@@ -136,14 +139,15 @@ function getScroll() {
 
   const drawCircle = function(color, point, alpha) {
 
-      context.fillStyle = color;
-      context.globalAlpha = alpha;
+      context.fillStyle = color; //オブジェクトの色
+      context.globalAlpha = alpha; //透明度
 
       context.beginPath();
 
+      //線形グラデーションの指定
       var context_color = canvas.getContext('2d');
       var context_color = context.createLinearGradient(100, 100, 100, 300);
-      context_color.addColorStop(0.0, '#80ccff');
+      context_color.addColorStop(0.0, '#80ccff'); //第二引数の色を指定するy座標とcanvasの高さとの比
       context_color.addColorStop(1.0, '#e6fdff');
       context.fillStyle = context_color;
 
