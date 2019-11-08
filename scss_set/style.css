@@ -494,7 +494,7 @@ footer #container_copyright p {
     font-size: 20px;
   }
   main {
-    height: 450vh;
+    height: 510vh;
   }
   main #container_mission {
     top: 10vh;
@@ -515,7 +515,7 @@ footer #container_copyright p {
     line-height: 30px;
   }
   main #container_service {
-    top: 120vh;
+    top: 110vh;
   }
   main #container_service #serviceTitle {
     width: 50vw;
@@ -561,13 +561,13 @@ footer #container_copyright p {
     font-size: 13px !important;
   }
   main #container_company {
-    height: 80vh;
+    height: 100vh;
     margin: 0 !important;
     position: absolute;
     bottom: 20vh !important;
   }
   main #container_company #companyTitle {
-    width: 34vw !important;
+    width: 50vw !important;
   }
   main #container_company #box_company {
     width: 80vw !important;
