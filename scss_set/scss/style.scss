@@ -349,13 +349,13 @@ footer {
     }
   }
   #container_copyright {
-    // margin-bottom: 10px;
+    padding-bottom: 5px;
     color: #000000;
     text-align: right;
     p {
-      font-size: 13px;
+      font-size: 15px;
       margin-right: 20px;
-      // margin-bottom: 3px;
+      margin-bottom: 3px;
     }
   }
 }
@@ -392,30 +392,8 @@ footer {
     }
   }
   #index {
-    height: 30vh;
+    height: 40vh;
     overflow-y: hidden;
-    #indexBg1 {
-      top: -250px;
-      right: -320px;
-      transform: scale(0.5);
-    }
-    #indexBg2 {
-      top: -330px;
-      left: -390px;
-      transform: scale(0.5);
-    }
-    #indexBg3-1 {
-      display: none;
-    }
-    #indexBg3-2 {
-      display: none;
-    }
-    #indexBg3-3 {
-      display: none;
-    }
-    #indexBg3-4 {
-      display: none;
-    }
     #container_companyName {
       top: 14vh;
       h2 {
@@ -424,8 +402,11 @@ footer {
       }
     }
   }
+  #container_canvas {
+    height: 380vh;
+  }
   main {
-    height: 290vh;
+    height: 340vh;
     #container_mission {
       top: 10vh;
       #missionTitle {
@@ -436,37 +417,39 @@ footer {
       }
     }
     #container_service {
-      top: 80vh;
+      top: 70vh;
       #serviceTitle {
         width: 34vw;
       }
       .container_serviceItem {
         width: 70vw;
         margin: 2vh 15vw 3vh 15vw;
+        flex-wrap: wrap;
         .container_serviceImg {
+          width: 70vw;
           height: 20vh;
           margin: 0 2.5vw;
+          order: 0;
           img {
-            width: 30vw;
+            width: 60vw;
             margin-top: 5vh;
           }
         }
         .container_serviceText {
+          width: 70vw;
           height: 20vh;
           margin: 0 2.5vw;
+          order: 1;
           object {
-            width: 4vw;
-            position: absolute;
-            top: 30px;
-            left: 15px;
+            display: none;
           }
           h2 {
             margin-top: 3vh;
-            font-size: 18px !important;
+            // font-size: px !important;
           }
           p {
             margin-top: 1vh;
-            font-size: 13px !important;
+            // font-size: 13px !important;
           }
         }
       }

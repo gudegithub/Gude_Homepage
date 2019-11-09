@@ -392,13 +392,15 @@ footer #container_contact .optional {
 }
 
 footer #container_copyright {
+  padding-bottom: 5px;
   color: #000000;
   text-align: right;
 }
 
 footer #container_copyright p {
-  font-size: 13px;
+  font-size: 15px;
   margin-right: 20px;
+  margin-bottom: 3px;
 }
 
 @keyframes rotate {
@@ -455,30 +457,8 @@ footer #container_copyright p {
     margin-left: 20vw;
   }
   #index {
-    height: 30vh;
+    height: 40vh;
     overflow-y: hidden;
-  }
-  #index #indexBg1 {
-    top: -250px;
-    right: -320px;
-    transform: scale(0.5);
-  }
-  #index #indexBg2 {
-    top: -330px;
-    left: -390px;
-    transform: scale(0.5);
-  }
-  #index #indexBg3-1 {
-    display: none;
-  }
-  #index #indexBg3-2 {
-    display: none;
-  }
-  #index #indexBg3-3 {
-    display: none;
-  }
-  #index #indexBg3-4 {
-    display: none;
   }
   #index #container_companyName {
     top: 14vh;
@@ -487,8 +467,11 @@ footer #container_copyright p {
     margin-top: 1vh;
     font-size: 21px;
   }
+  #container_canvas {
+    height: 380vh;
+  }
   main {
-    height: 290vh;
+    height: 340vh;
   }
   main #container_mission {
     top: 10vh;
@@ -500,7 +483,7 @@ footer #container_copyright p {
     width: 50vw;
   }
   main #container_service {
-    top: 80vh;
+    top: 70vh;
   }
   main #container_service #serviceTitle {
     width: 34vw;
@@ -508,32 +491,32 @@ footer #container_copyright p {
   main #container_service .container_serviceItem {
     width: 70vw;
     margin: 2vh 15vw 3vh 15vw;
+    flex-wrap: wrap;
   }
   main #container_service .container_serviceItem .container_serviceImg {
+    width: 70vw;
     height: 20vh;
     margin: 0 2.5vw;
+    order: 0;
   }
   main #container_service .container_serviceItem .container_serviceImg img {
-    width: 30vw;
+    width: 60vw;
     margin-top: 5vh;
   }
   main #container_service .container_serviceItem .container_serviceText {
+    width: 70vw;
     height: 20vh;
     margin: 0 2.5vw;
+    order: 1;
   }
   main #container_service .container_serviceItem .container_serviceText object {
-    width: 4vw;
-    position: absolute;
-    top: 30px;
-    left: 15px;
+    display: none;
   }
   main #container_service .container_serviceItem .container_serviceText h2 {
     margin-top: 3vh;
-    font-size: 18px !important;
   }
   main #container_service .container_serviceItem .container_serviceText p {
     margin-top: 1vh;
-    font-size: 13px !important;
   }
   main #container_company {
     height: 80vh;
