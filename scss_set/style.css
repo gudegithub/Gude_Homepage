@@ -5,6 +5,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 html body {
@@ -22,6 +23,7 @@ header {
   display: flex;
   background-color: rgba(255, 255, 255, 0);
   text-align: right;
+  justify-content: stretch;
 }
 
 header #headerLogo {
@@ -55,6 +57,7 @@ header #headerItem_first {
   width: 100vw;
   height: 595vh;
   position: absolute;
+  overflow: hidden;
   top: 0;
   left: 0;
 }
@@ -79,8 +82,9 @@ header #headerItem_first {
 }
 
 #index #container_companyName h2 {
+  width: 80vw;
   margin-top: 9vh;
-  font-size: 28px;
+  font-size: 26px;
   color: #000000;
   user-select: none;
 }
@@ -192,28 +196,13 @@ main #container_service .container_serviceItem .container_serviceText object {
 
 main #container_service .container_serviceItem .container_serviceText h2 {
   margin-top: 10vh;
+  font-size: 30px;
 }
 
 main #container_service .container_serviceItem .container_serviceText p {
   margin-top: 5vh;
   font-size: 17px;
   text-align: left;
-}
-
-main #container_service .container_serviceItem #container_serviceText1 h2 {
-  font-size: 30px;
-}
-
-main #container_service .container_serviceItem #container_serviceText2 h2 {
-  font-size: 30px;
-}
-
-main #container_service .container_serviceItem #container_serviceText3 h2 {
-  font-size: 30px;
-}
-
-main #container_service .container_serviceItem #container_serviceText4 h2 {
-  font-size: 30px;
 }
 
 main #container_company {
@@ -269,78 +258,9 @@ main #container_company #box_company #container_map {
   overflow: hidden;
 }
 
-main #mainBg1 {
-  width: 100vw;
-  position: absolute;
-  top: 21%;
-  left: 0;
-}
-
-main #mainBg2 {
-  width: 20vw;
-  position: absolute;
-  top: 8%;
-  right: 0;
-}
-
-main #mainBg3 {
-  width: 100vw;
-  position: absolute;
-  top: 64%;
-  left: 0;
-}
-
-main #mainBg4 {
-  width: 100vw;
-  position: absolute;
-  top: 3%;
-  left: 0;
-}
-
-main #mainBg5 {
-  width: 100vw;
-  position: absolute;
-  top: 20%;
-  left: 0;
-}
-
-main #mainBg6 {
-  width: 78vw;
-  position: absolute;
-  top: 1%;
-  left: 0;
-}
-
-main #mainBg7 {
-  width: 82vw;
-  position: absolute;
-  top: 31%;
-  right: 0;
-}
-
-main #mainBg8 {
-  width: 82vw;
-  position: absolute;
-  top: 68%;
-  right: 0;
-}
-
-main #mainBg9 {
-  width: 20vw;
-  position: absolute;
-  top: 88%;
-  right: 30px;
-}
-
-main #mainBg10 {
-  width: 20vw;
-  position: absolute;
-  top: 54%;
-  right: 50px;
-}
-
 footer {
   background-color: #aff4f4;
+  width: 100vw;
 }
 
 footer #container_contact {
@@ -385,9 +305,10 @@ footer #container_contact .submit_button {
   border: none;
   font-size: 13px;
   cursor: pointer;
+  -webkit-appearance: none;
 }
 
-footer #container_contact .optional {
+footer #container_contact span {
   display: none;
 }
 
@@ -465,7 +386,7 @@ footer #container_copyright p {
   }
   #index #container_companyName h2 {
     margin-top: 1vh;
-    font-size: 21px;
+    font-size: 16px !important;
   }
   #container_canvas {
     height: 380vh;
@@ -480,7 +401,10 @@ footer #container_copyright p {
     width: 34vw;
   }
   main #container_mission #mission {
-    width: 50vw;
+    width: 80vw;
+  }
+  main #container_mission .text_mission p {
+    font-size: 15px !important;
   }
   main #container_service {
     top: 70vh;
@@ -519,10 +443,10 @@ footer #container_copyright p {
     margin-top: 1vh;
   }
   main #container_company {
-    height: 80vh;
+    height: 90vh;
     margin: 0 !important;
     position: absolute;
-    bottom: 5vh !important;
+    bottom: 0 !important;
   }
   main #container_company #companyTitle {
     width: 34vw !important;
@@ -532,8 +456,8 @@ footer #container_copyright p {
     margin: 3vh 10vw 10vh 10vw !important;
   }
   main #container_company #box_company h1 {
-    font-size: 31px;
-    padding: 5vh 0 4vh 0 !important;
+    font-size: 28px;
+    padding: 3vh 0 4vh 0 !important;
   }
   main #container_company #box_company table {
     width: 70vw !important;
@@ -546,10 +470,10 @@ footer #container_copyright p {
     vertical-align: middle;
     font-size: 12px !important;
   }
+  main #container_company #box_company table .text_small {
+    font-size: 10px !important;
+  }
   main #container_company #box_company #container_map {
-    width: 50vw;
-    padding: 5vh 0 !important;
-    margin-left: 15vw !important;
-    overflow: hidden;
+    display: none;
   }
 }

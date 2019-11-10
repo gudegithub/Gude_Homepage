@@ -6,6 +6,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x:hidden;
   body {
     background-color: #ffffff;
     overflow-x: hidden;
@@ -22,6 +23,7 @@ header {
   display: flex;
   background-color: rgba(255, 255, 255, 0); //透明色
   text-align: right;
+  justify-content: stretch;
   #headerLogo {
     position: absolute;
     top: 0;
@@ -53,6 +55,7 @@ header {
   width: 100vw;
   height: 595vh;
   position: absolute;
+  overflow: hidden;
   top: 0;
   left: 0;
   canvas {
@@ -76,8 +79,9 @@ header {
     transition: 1s;
     animation: fadeinCentered 1s;
     h2 {
+      width: 80vw;
       margin-top: 9vh;
-      font-size: 28px;
+      font-size: 26px;
       color: #000000;
       user-select: none;
     }
@@ -170,31 +174,12 @@ main {
         }
         h2 {
           margin-top: 10vh;
+          font-size: 30px;
         }
         p {
           margin-top: 5vh;
           font-size: 17px;
           text-align: left;
-        }
-      }
-      #container_serviceText1 {
-          h2 {
-            font-size: 30px;
-        }
-      }
-      #container_serviceText2 {
-        h2 {
-          font-size: 30px;
-        }
-      }
-      #container_serviceText3 {
-        h2 {
-          font-size: 30px;
-        }
-      }
-      #container_serviceText4 {
-        h2 {
-          font-size: 30px;
         }
       }
     }
@@ -244,70 +229,11 @@ main {
       }
     }
   }
-  #mainBg1 {
-    width: 100vw;
-    position: absolute;
-    top: 21%;
-    left: 0;
-  }
-  #mainBg2 {
-    width: 20vw;
-    position: absolute;
-    top: 8%;
-    right: 0;
-  }
-  #mainBg3 {
-    width: 100vw;
-    position: absolute;
-    top: 64%;
-    left: 0;
-  }
-  #mainBg4 {
-    width: 100vw;
-    position: absolute;
-    top: 3%;
-    left: 0;
-  }
-  #mainBg5 {
-    width: 100vw;
-    position: absolute;
-    top: 20%;
-    left: 0;
-  }
-  #mainBg6 {
-    width: 78vw;
-    position: absolute;
-    top: 1%;
-    left: 0;
-  }
-  #mainBg7 {
-    width: 82vw;
-    position: absolute;
-    top: 31%;
-    right: 0;
-  }
-  #mainBg8 {
-    width: 82vw;
-    position: absolute;
-    top: 68%;
-    right: 0;
-  }
-  #mainBg9 {
-    width: 20vw;
-    position: absolute;
-    top: 88%;
-    right: 30px;
-  }
-  #mainBg10 {
-    width: 20vw;
-    position: absolute;
-    top: 54%;
-    right: 50px;
-  }
 }
 
 footer {
   background-color: #aff4f4;
+  width: 100vw;
   #container_contact {
     color: #000000;
     text-align: center;
@@ -343,8 +269,9 @@ footer {
       border: none;
       font-size: 13px;
       cursor: pointer;
+      -webkit-appearance: none;
     }
-    .optional {
+    span {
       display: none;
     }
   }
@@ -398,7 +325,7 @@ footer {
       top: 14vh;
       h2 {
         margin-top: 1vh;
-        font-size: 21px;
+        font-size: 16px !important;
       }
     }
   }
@@ -413,7 +340,12 @@ footer {
         width: 34vw;
       }
       #mission {
-        width: 50vw;
+        width: 80vw;
+      }
+      .text_mission {
+        p {
+          font-size: 15px !important;
+        }
       }
     }
     #container_service {
@@ -455,10 +387,10 @@ footer {
       }
     }
     #container_company {
-      height: 80vh;
+      height: 90vh;
       margin: 0 !important;
       position: absolute;
-      bottom: 5vh !important;
+      bottom: 0 !important;
       #companyTitle {
         width: 34vw !important;
       }
@@ -466,8 +398,8 @@ footer {
         width: 80vw !important;
         margin: 3vh 10vw 10vh 10vw !important;
         h1 {
-          font-size: 31px;
-          padding: 5vh 0 4vh 0 !important;
+          font-size: 28px;
+          padding: 3vh 0 4vh 0 !important;
         }
         table {
           width: 70vw !important;
@@ -479,12 +411,12 @@ footer {
             vertical-align: middle;
             font-size: 12px !important;
           }
+          .text_small {
+            font-size: 10px !important;
+          }
         }
         #container_map {
-          width: 50vw;
-          padding: 5vh 0 !important;
-          margin-left: 15vw !important;
-          overflow: hidden;
+          display: none;
         }
       }
     }

@@ -1,19 +1,3 @@
-// function setCanvas(containerId) {
-//
-//   const windowWidth = window.parent.screen.width;
-//   const containerHeight = document.getElementById('container_canvas').clientHeight;
-//
-//   const container = document.getElementById(containerId);
-//
-//   const canvas = document.createElement('canvas');
-//   canvas.setAttribute('id', 'canvas2');
-//   canvas.className = 'canvas';
-//   canvas.setAttribute('width', `${windowWidth}`);
-//   canvas.setAttribute('height', `${containerHeight}`);
-//
-//   container.appendChild(canvas);
-// }
-
 //描画するcanvas要素のIDと配列を引数にとる
 function makeFlexibleCircle(canvasId, circlesList) {
 
@@ -134,7 +118,7 @@ function makeFlexibleCircle(canvasId, circlesList) {
 
   window.onload = function(e) {
       canvas = document.getElementById(canvasId);
-      canvas.width = document.documentElement.clientWidth; //canvas要素の幅を関数実行時の画面幅にする
+      canvas.width = document.body.clientWidth; //canvas要素の幅を関数実行時の画面幅にする
       canvas.height = document.getElementById('container_canvas').clientHeight; //canvas要素の高さをcontainerに合わせる
       context = canvas.getContext("2d");
 
