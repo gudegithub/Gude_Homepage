@@ -279,5 +279,9 @@ function makeFlexibleCircle(canvasId, circlesList) {
       },
   ];
 
-  makeFlexibleCircle('canvas1', circlesListSmall);
+  if (canvasWidth <= 768) {
+    makeFlexibleCircle('canvas1', circlesListSmall);
+  } else {
+    makeFlexibleCircle('canvas1', circlesListLarge);
+  }
 })();
